@@ -7,6 +7,7 @@ import img2 from "./assets/2.jpg";
 import img3 from "./assets/3.jpg";
 import img4 from "./assets/4.jpg";
 import img5 from "./assets/5.jpg";
+import img6 from "./assets/6.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { TbBrandTelegram, TbBrandX } from "react-icons/tb";
@@ -209,7 +210,7 @@ function App() {
         <div data-aos="fade-up" className="pt-20 lg:w-[50%] md:w-[70%] w-[90%]">
           <i className="text-lg lg:w-[50%] md:w-[70%] w-[90%]">
             Please note that all SOL sent before and after the scheduled launch
-            date will be fully refunded upon the official launch of EGG. Make
+            date will be fully refunded upon the official launch of Nothingwifhat. Make
             sure to adhere to the start and end dates to avoid any
             inconvenience.
           </i>
@@ -234,7 +235,7 @@ function App() {
           className="text-lg pt-20 lg:w-[50%] md:w-[70%] w-[90%]"
         >
           Are you ready to buckle up for the ride of a lifetime with
-          Nothingwifhat? You may have missed out on the hype with Nothingwifhat,
+          Nothingwifhat? You may have missed out on the hype with Dogwifhat,
           but guess what? Nothingwifhat is here, and it's your golden ticket to
           financial freedom. This is the next x1000+ gem!
         </p>
@@ -296,7 +297,7 @@ function App() {
             <p className="text-lg">Community lead</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
-            <img src={sm} className="h-[200px] rounded-full" alt="" />
+            <img src={img6} className="h-[200px] rounded-full" alt="" />
             <h2 className="text-2xl font-bold">David</h2>
             <p className="text-lg">Marketing lead</p>
           </div>
@@ -380,7 +381,7 @@ function App() {
             That's It!
           </h2>
           <p data-aos="fade-up" className="text-lg">
-            At the end of the presale, you will receive your SOL bonuses and EGG
+            At the end of the presale, you will receive your SOL bonuses and Nothingwifhat
             tokens directly in your Solflare wallet.
           </p>
         </div>
