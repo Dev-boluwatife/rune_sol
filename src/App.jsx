@@ -146,7 +146,7 @@ function App() {
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="tex-black font-bold text-xl">Ticker</p>
-            <p>$NWIF</p>
+            <p>$RUN</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="tex-black font-bold text-xl">Start</p>
