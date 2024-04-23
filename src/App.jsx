@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
-import roadmap from "./assets/roadmap.png";
-import sm from "./assets/hero.jpg";
+import roadmap from './assets/roadmap.png';
+import sm from "./assets/sm.jpg";
 import img1 from "./assets/1.jpg";
 import img2 from "./assets/2.jpg";
 import img3 from "./assets/3.jpg";
@@ -24,7 +24,7 @@ function App() {
     <div className="App flex flex-col justify-center overflow-x-hidden items-center">
       {/* PRESALE NOTIFICATION IN RED BACKGROUND */}
       <div className="pt-8">
-        <p className="text-xl py-1 bg-[#000] text-white font-semibold px-6 w-fit">
+        <p className="text-xl py-1 bg-[#FEBD59] text-white font-semibold px-6 w-fit">
           The presale begins on March 25th at 12pm UTC
         </p>
       </div>
@@ -37,17 +37,17 @@ function App() {
       {/* WELCOME MESSAGE AND INTRO */}
       <div className="pt-20 w-full flex flex-col justify-center items-center">
         <h2 data-aos="fade-up" className="text-3xl">
-          Welcome to <span className="font-bold">RUNE_SOL</span>
+          Welcome to <span className="font-bold">Nothingwifhat</span>
         </h2>
 
         <p
           data-aos="fade-up"
           className="pt-6 lg:w-[50%] md:w-[70%] w-[90%] text-[20px]"
         >
-          Our token symbolizes a milestone in the mining of BTC and Runes,
-          bringing you an opportunity to be part of this revolution. We've made
-          it easier for you to acquire Runes by offering a BTC Runes and our
-          token airdrop for presale participants.
+          Nothing isn't literally just an empty space wif a hat, its a symbol of
+          futuristic progress made wif Nothing, from nothing. Its clear that the
+          future belongs to people who embrace great innovations like
+          Nothingwifhat. Lets pave a new era together
         </p>
       </div>
 
@@ -57,42 +57,42 @@ function App() {
         <a
           href="#presale"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           Presale
         </a>
         <a
           href="#about"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           About
         </a>
         <a
           href="#team"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           Team
         </a>
         <a
           href="#roadmap"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           Roadmap
         </a>
         <a
           href="#howitwork"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           How it works
         </a>
         <a
           href="#bonus"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
         >
           Bonus
         </a>
@@ -134,7 +134,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Presale
         </div>
@@ -203,15 +203,15 @@ function App() {
             Send SOL to:
           </div>
           <div className="bg-[#EEEFEE] text-center md:text-[16px] text-[14px] py-4 font-bold text-black">
-            F6dxMrLmP7FewQGmqeYuhsMTbfX6riWh4dwQDKb869md
+            4rQkamNGwJW7ZqomadmFMfahE3gEgAvzaYMUekdon5r1
           </div>
         </div>
 
         <div data-aos="fade-up" className="pt-20 lg:w-[50%] md:w-[70%] w-[90%]">
           <i className="text-lg lg:w-[50%] md:w-[70%] w-[90%]">
             Please note that all SOL sent before and after the scheduled launch
-            date will be fully refunded upon the official launch of RUNE_SOl.
-            Make sure to adhere to the start and end dates to avoid any
+            date will be fully refunded upon the official launch of Nothingwifhat. Make
+            sure to adhere to the start and end dates to avoid any
             inconvenience.
           </i>
         </div>
@@ -225,7 +225,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           About
         </div>
@@ -234,10 +234,10 @@ function App() {
           data-aos="fade-up"
           className="text-lg pt-20 lg:w-[50%] md:w-[70%] w-[90%]"
         >
-          Are you ready to buckle up for the ride of a lifetime with RUNE_SOl?
-          You may have missed out on the hype with Dogwifhat, Nothingwifhat but
-          guess what? RUNE_SOl is here, and it's your golden ticket to financial
-          freedom. This is the next x1000+ gem!
+          Are you ready to buckle up for the ride of a lifetime with
+          Nothingwifhat? You may have missed out on the hype with Dogwifhat,
+          but guess what? Nothingwifhat is here, and it's your golden ticket to
+          financial freedom. This is the next x1000+ gem!
         </p>
 
         <p
@@ -254,8 +254,8 @@ function App() {
         >
           It's a chance to become part of something revolutionary. Share this
           opportunity with your friends, family, heck, even your neighbor's cat.
-          Because when RUNE_SOl takes off, everyone's going to wish they were in
-          on the action.
+          Because when Nothingwifhat takes off, everyone's going to wish they
+          were in on the action.
         </p>
       </div>
 
@@ -266,7 +266,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Team
         </div>
@@ -312,7 +312,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Roadmap
         </div>
@@ -329,7 +329,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           How it works
         </div>
@@ -381,8 +381,8 @@ function App() {
             That's It!
           </h2>
           <p data-aos="fade-up" className="text-lg">
-            At the end of the presale, you will receive your SOL bonuses and
-            RUNE_SOl tokens directly in your Solflare wallet.
+            At the end of the presale, you will receive your SOL bonuses and Nothingwifhat
+            tokens directly in your Solflare wallet.
           </p>
         </div>
 
@@ -405,7 +405,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Market Bonus
         </div>
@@ -454,19 +454,19 @@ function App() {
         <div className="flex items-center gap-4 text-2xl">
           <a
             target="_blank"
-            href="https://x.com/solrune20?t=6r2Du7QLvczHhNkfdlIWGQ&s=09"
+            href="https://x.com/Nwifonsol?t=lrsWZSzejBzPfU7_PPOL3A&s=09"
           >
             <TbBrandX />
           </a>
-          <a target="_blank" href="https://t.me/+Ze3BsfbeM8M4YmM0">
+          <a target="_blank" href="https://t.me/+Gp_o7zBwpgtlMWM0">
             <TbBrandTelegram />
           </a>
         </div>
-        <a href="mailto:info@rune_sol.com" className="pt-4">
-          info@rune_sol.com
+        <a href="mailto:info@nothingwifhat.com" className="pt-4">
+          info@nothingwifhat.com
         </a>
         <div className="pt-4">
-          Copyright © runes_sol.com, RUNES_SOL. All rights reserved.
+          Copyright © nothingwifhat.com, NOTHINGWIFHAT. All rights reserved.
         </div>
       </footer>
     </div>
