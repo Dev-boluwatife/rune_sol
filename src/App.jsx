@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./App.css";
 import roadmap from "./assets/roadmap.png";
-import sm from "./assets/sm.jpg";
+import sm from "./assets/hero.jpg";
 import img1 from "./assets/1.jpg";
 import img2 from "./assets/2.jpg";
 import img3 from "./assets/3.jpg";
@@ -24,7 +24,7 @@ function App() {
     <div className="App flex flex-col justify-center overflow-x-hidden items-center">
       {/* PRESALE NOTIFICATION IN RED BACKGROUND */}
       <div className="pt-8">
-        <p className="text-xl py-1 bg-[#FEBD59] text-white font-semibold px-6 w-fit">
+        <p className="text-xl py-1 bg-[#000] text-white font-semibold px-6 w-fit">
           The presale begins on March 25th at 12pm UTC
         </p>
       </div>
@@ -57,42 +57,42 @@ function App() {
         <a
           href="#presale"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-[#000]"
         >
           Presale
         </a>
         <a
           href="#about"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
         >
           About
         </a>
         <a
           href="#team"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
         >
           Team
         </a>
         <a
           href="#roadmap"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
         >
           Roadmap
         </a>
         <a
           href="#howitwork"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
         >
           How it works
         </a>
         <a
           href="#bonus"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#FEBD59] text-black hover:text-[#FEBD59] rounded-lg hover:bg-transparent border border-[#FEBD59]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
         >
           Bonus
         </a>
@@ -134,7 +134,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Presale
         </div>
@@ -225,7 +225,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           About
         </div>
@@ -266,7 +266,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Team
         </div>
@@ -312,7 +312,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Roadmap
         </div>
@@ -329,7 +329,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           How it works
         </div>
@@ -405,7 +405,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-yellow-400 lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Market Bonus
         </div>
@@ -466,7 +466,7 @@ function App() {
           info@rune_sol.com
         </a>
         <div className="pt-4">
-          Copyright © nothingwifhat.com, NOTHINGWIFHAT. All rights reserved.
+          Copyright © runes_sol.com, RUNES_SOL. All rights reserved.
         </div>
       </footer>
     </div>
