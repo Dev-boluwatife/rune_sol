@@ -21,10 +21,10 @@ function App() {
     AOS.refresh();
   }, []);
   return (
-    <div className="App flex flex-col justify-center overflow-x-hidden items-center">
-      {/* PRESALE NOTIFICATION IN RED BACKGROUND */}
+    <div className="App flex flex-col justify-center overflow-x-hidden items-center bg-black text-white">
+      {/* PRESALE NOTIFICATION IN PURPLE BACKGROUND */}
       <div className="pt-8">
-        <p className="text-xl py-1 bg-[#000] text-white font-semibold px-6 w-fit">
+        <p className="text-xl py-1 bg-purple-700 text-white font-semibold px-6 w-fit">
           The presale begins on April 26th at 12pm UTC
         </p>
       </div>
@@ -57,42 +57,42 @@ function App() {
         <a
           href="#presale"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-[#3f3629] rounded-lg hover:bg-transparent border border-purple-700"
         >
           Presale
         </a>
         <a
           href="#about"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-purple-700 rounded-lg hover:bg-transparent border border-purple-700"
         >
           About
         </a>
         <a
           href="#team"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-purple-700 rounded-lg hover:bg-transparent border border-purple-700"
         >
           Team
         </a>
         <a
           href="#roadmap"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-purple-700 rounded-lg hover:bg-transparent border border-purple-700"
         >
           Roadmap
         </a>
         <a
           href="#howitwork"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-purple-700 rounded-lg hover:bg-transparent border border-purple-700"
         >
           How it works
         </a>
         <a
           href="#bonus"
           data-aos="flip-up"
-          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-[#000] text-white hover:text-[#000] rounded-lg hover:bg-transparent border border-[#000]"
+          className="w-fit md:py-6 py-3 md:px-16 px-8 bg-purple-700 text-white hover:text-purple-700 rounded-lg hover:bg-transparent border border-purple-700"
         >
           Bonus
         </a>
@@ -100,30 +100,23 @@ function App() {
 
       <div className="grid md:grid-cols-4 grid-cols-2 gap-6 lg:w-[50%] md:w-[70%] pt-20 w-[90%]">
         <div data-aos="fade-up" className="flex flex-col">
-          <div className="bg-[#E3E3E3] py-4 font-bold text-black">
+          <div className="bg-purple-500 py-4 font-bold text-white">
             {" "}
             Price (USD)
           </div>
-          <div className="bg-[#EEEFEE] py-4 font-bold text-black">
-            0.00000000
-          </div>
+          <div className="bg-purple-600 py-4 font-bold text-white">0.00000000</div>
         </div>
         <div data-aos="fade-up" className="flex flex-col">
-          <div className="bg-[#E3E3E3] py-4 font-bold text-black"> % (24h)</div>
-          <div className="bg-[#EEEFEE] py-4 font-bold text-black">▲ 0.00%</div>
+          <div className="bg-purple-500 py-4 font-bold text-white"> % (24h)</div>
+          <div className="bg-purple-600 py-4 font-bold text-white">▲ 0.00%</div>
         </div>
         <div data-aos="fade-up" className="flex flex-col">
-          <div className="bg-[#E3E3E3] py-4 font-bold text-black">
-            {" "}
-            Market Cap
-          </div>
-          <div className="bg-[#EEEFEE] py-4 font-bold text-black">0.00</div>
+          <div className="bg-purple-500 py-4 font-bold text-white"> Market Cap</div>
+          <div className="bg-purple-600 py-4 font-bold text-white">0.00</div>
         </div>
         <div data-aos="fade-up" className="flex flex-col">
-          <div className="bg-[#E3E3E3] py-4 font-bold text-black">
-            Volume (24h)
-          </div>
-          <div className="bg-[#EEEFEE] py-4 font-bold text-black">0.00</div>
+          <div className="bg-purple-500 py-4 font-bold text-white">Volume (24h)</div>
+          <div className="bg-purple-600 py-4 font-bold text-white">0.00</div>
         </div>
       </div>
 
@@ -134,62 +127,62 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Presale
         </div>
 
         <div className="lg:w-[40%] md:w'[60%] w-[80%] pt-10 flex flex-col gap-5">
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Status</p>
+            <p className="text-white font-bold text-xl">Status</p>
             <p>Waiting</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Ticker</p>
+            <p className="text-white font-bold text-xl">Ticker</p>
             <p>$RUN</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Start</p>
+            <p className="text-white font-bold text-xl">Start</p>
             <p>25th March 2024 12pm utc</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">End *</p>
+            <p className="text-white font-bold text-xl">End *</p>
             <p>30th March 2024 5pm utc / when hard cap is reached</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Blockchain</p>
+            <p className="text-white font-bold text-xl">Blockchain</p>
             <p>Solana</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Minimum Purchase</p>
+            <p className="text-white font-bold text-xl">Minimum Purchase</p>
             <p>0.2 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Hard Cap</p>
+            <p className="text-white font-bold text-xl">Hard Cap</p>
             <p>300 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Soft Cap</p>
+            <p className="text-white font-bold text-xl">Soft Cap</p>
             <p>100 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Capped Supply</p>
+            <p className="text-white font-bold text-xl">Capped Supply</p>
             <p>1 billion</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Liquidity Pool</p>
+            <p className="text-white font-bold text-xl">Liquidity Pool</p>
             <p>8.69% of total supply </p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Presale</p>
+            <p className="text-white font-bold text-xl">Presale</p>
             <p>18.75% of total supply</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Marketing Bonus **</p>
+            <p className="text-white font-bold text-xl">Marketing Bonus **</p>
             <p>18.75% of total supply</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
-            <p className="tex-black font-bold text-xl">Development</p>
+            <p className="text-white font-bold text-xl">Development</p>
             <p>18.75% of total supply</p>
           </div>
         </div>
@@ -198,11 +191,11 @@ function App() {
           data-aos="fade-up"
           className="flex flex-col lg:w-[50%] md:w-[70%] w-full pt-20"
         >
-          <div className="bg-[#E3E3E3] py-4 font-bold text-black">
+          <div className="bg-purple-500 py-4 font-bold text-white">
             {" "}
             Send SOL to:
           </div>
-          <div className="bg-[#EEEFEE] text-center md:text-[16px] text-[14px] py-4 font-bold text-black">
+          <div className="bg-purple-600 text-center md:text-[16px] text-[14px] py-4 font-bold text-white">
             F6dxMrLmP7FewQGmqeYuhsMTbfX6riWh4dwQDKb869md
           </div>
         </div>
@@ -225,7 +218,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           About
         </div>
@@ -266,7 +259,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Team
         </div>
@@ -312,12 +305,12 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Roadmap
         </div>
 
-        <div>
+        <div className="pt-10">
           <img src={roadmap} alt="" />
         </div>
       </div>
@@ -329,7 +322,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           How it works
         </div>
@@ -405,7 +398,7 @@ function App() {
       >
         <div
           data-aos="fade-up"
-          className="bg-[#000] text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
+          className="bg-purple-700 text-white lg:w-[90%] w-full py-5 rounded-md text-3xl font-bold"
         >
           Market Bonus
         </div>
@@ -450,7 +443,7 @@ function App() {
         </div>
       </div>
 
-      <footer className="bg-[#E3E3E3] mt-20 w-full flex flex-col justify-center items-center py-10">
+      <footer className="bg-purple-800 mt-20 w-full flex flex-col justify-center items-center py-10">
         <div className="flex items-center gap-4 text-2xl">
           <a
             target="_blank"
@@ -462,12 +455,16 @@ function App() {
             <TbBrandTelegram />
           </a>
         </div>
-        <a href="mailto:info@rune_sol.com" className="pt-4">
-          info@rune_sol.com
-        </a>
-        <div className="pt-4">
-          Copyright © runes_sol.com, RUNES_SOL. All rights reserved.
-        </div>
+        <p className="text-lg pt-6">
+          © 2024 RUNE_SOl | Developed by{" "}
+          <a
+            className="underline"
+            target="_blank"
+            href="https://x.com/solrune20?t=6r2Du7QLvczHhNkfdlIWGQ&s=09"
+          >
+            SOLRUNE
+          </a>
+        </p>
       </footer>
     </div>
   );
