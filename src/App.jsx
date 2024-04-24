@@ -143,11 +143,11 @@ function App() {
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Start</p>
-            <p>25th March 2024 12pm utc</p>
+            <p>26th April 2024 12pm utc</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">End *</p>
-            <p>30th March 2024 5pm utc / when hard cap is reached</p>
+            <p>2nd May 2024 5pm utc / when hard cap is reached</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Blockchain</p>
@@ -156,6 +156,10 @@ function App() {
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Minimum Purchase</p>
             <p>0.2 sol</p>
+          </div>
+          <div data-aos="fade-up" className="flex justify-between items-center">
+            <p className="text-white font-bold text-xl">Maximum Purchase</p>
+            <p>10 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Hard Cap</p>
