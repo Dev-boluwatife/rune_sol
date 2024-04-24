@@ -25,7 +25,7 @@ function App() {
       {/* PRESALE NOTIFICATION IN RED BACKGROUND */}
       <div className="pt-8">
         <p className="text-xl py-1 bg-[#000] text-white font-semibold px-6 w-fit">
-          The presale begins on March 25th at 12pm UTC
+          The presale begins on April 26th at 12pm UTC
         </p>
       </div>
 
@@ -162,7 +162,7 @@ function App() {
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="tex-black font-bold text-xl">Minimum Purchase</p>
-            <p>0.5 sol</p>
+            <p>0.2 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="tex-black font-bold text-xl">Hard Cap</p>
@@ -273,27 +273,27 @@ function App() {
         <div className="flex pt-20 flex-wrap lg:w-[60%] md:w-[70%] w-[90%] items-center justify-center gap-10">
           <div data-aos="fade-up" className="flex flex-col gap-2">
             <img src={img1} className="h-[200px] rounded-full" alt="" />
-            <h2 className="text-2xl font-bold">King</h2>
+            <h2 className="text-2xl font-bold">Chamber</h2>
             <p className="text-lg">Founder</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
             <img src={img2} className="h-[200px] rounded-full" alt="" />
-            <h2 className="text-2xl font-bold">lory</h2>
+            <h2 className="text-2xl font-bold">Micheals</h2>
             <p className="text-lg">Co-Founder</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
             <img src={img3} className="h-[200px] rounded-full" alt="" />
-            <h2 className="text-2xl font-bold">Ivan</h2>
+            <h2 className="text-2xl font-bold">John</h2>
             <p className="text-lg">Block chain research lead</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
             <img src={img4} className="h-[200px] rounded-full" alt="" />
-            <h2 className="text-2xl font-bold">Paula</h2>
+            <h2 className="text-2xl font-bold">Jane</h2>
             <p className="text-lg">Risk manager</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
             <img src={img5} className="h-[200px] rounded-full" alt="" />
-            <h2 className="text-2xl font-bold">Lee Min</h2>
+            <h2 className="text-2xl font-bold">Lee King</h2>
             <p className="text-lg">Community lead</p>
           </div>
           <div data-aos="fade-up" className="flex flex-col gap-2">
