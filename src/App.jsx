@@ -147,7 +147,7 @@ function App() {
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">End *</p>
-            <p>2nd May 2024 5pm utc / when hard cap is reached</p>
+            <p>1st May 2024 5pm utc / when hard cap is reached</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Blockchain</p>
@@ -159,7 +159,7 @@ function App() {
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Maximum Purchase</p>
-            <p>10 sol</p>
+            <p>20 sol</p>
           </div>
           <div data-aos="fade-up" className="flex justify-between items-center">
             <p className="text-white font-bold text-xl">Hard Cap</p>
